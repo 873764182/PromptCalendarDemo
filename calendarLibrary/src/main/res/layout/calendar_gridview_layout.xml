@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEFFFFFF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#344154">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/ic_back_m"
+            android:drawablePadding="20dp"
+            android:drawableRight="@drawable/ic_next_m"
+            android:gravity="center"
+            android:text="2016-5"
+            android:textColor="#EEFFFFFF" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/week_style"
+            android:text="日" />
+
+        <TextView
+            style="@style/week_style"
+            android:text="一" />
+
+        <TextView
+            style="@style/week_style"
+            android:text="二" />
+
+        <TextView
+            style="@style/week_style"
+            android:text="三" />
+
+        <TextView
+            style="@style/week_style"
+            android:text="四" />
+
+        <TextView
+            style="@style/week_style"
+            android:text="五" />
+
+        <TextView
+            style="@style/week_style"
+            android:text="六" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="7"
+        android:stretchMode="columnWidth" />
+</LinearLayout>

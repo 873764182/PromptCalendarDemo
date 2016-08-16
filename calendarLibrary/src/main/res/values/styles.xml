@@ -1,0 +1,11 @@
+<resources>
+
+    <!--日历控件星期样式-->
+    <style name="week_style" parent="android:Widget">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">-1dp</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#344154</item>
+    </style>
+</resources>
