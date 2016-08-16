@@ -2,7 +2,7 @@
 一个可以带红点提示的android自定义日历控件
 
 1. 布局文件中
-<com.panxiong.calendar.PromptCalendar
+    <com.panxiong.calendar.PromptCalendar
         android:id="@+id/promptCalendar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
