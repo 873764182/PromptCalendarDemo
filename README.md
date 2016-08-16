@@ -1,13 +1,15 @@
 # PromptCalendarDemo
 一个可以带红点提示的android自定义日历控件
 
-1. 布局文件中
+1. 让你的主程序依赖calendarLibrary库
+
+2. 布局文件中
     <com.panxiong.calendar.PromptCalendar
         android:id="@+id/promptCalendar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
         
-2. Activity中
+3. Activity中
         mPromptCalendar = (PromptCalendar) findViewById(R.id.promptCalendar);
 
         mPromptCalendar.setCalendarInterface(new PromptCalendar.PromptCalendarInterface() {
