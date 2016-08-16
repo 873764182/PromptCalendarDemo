@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public String getTagDate() {
-                return super.getTagDate();  // 显示今天
+                return super.getTagDate();  // 突出显示今天
             }
         });
     }
